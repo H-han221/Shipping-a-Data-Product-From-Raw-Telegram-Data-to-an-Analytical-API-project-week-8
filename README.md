@@ -1,0 +1,2 @@
+# Shipping-a-Data-Product-From-Raw-Telegram-Data-to-an-Analytical-API-project-week-8
+Medical Telegram Data Warehouse is an end-to-end data engineering project that collects raw data from public Ethiopian medical Telegram channels, stores it in a structured data lake, and transforms it into a clean PostgreSQL data warehouse using dbt. The system follows a modern ELT architecture for reliable analytics.

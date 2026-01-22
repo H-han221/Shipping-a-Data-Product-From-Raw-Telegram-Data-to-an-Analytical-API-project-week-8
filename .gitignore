@@ -3,8 +3,8 @@ __pycache__/
 *.pyc
 
 # Ignore virtual environments
-venv*/
-*.venv
+venv311*/
+*.venv311
 
 # Ignore data downloads
 data/
@@ -17,3 +17,70 @@ Thumbs.db
 # Ignore project IDE/editor files
 .vscode/
 .idea/
+# ===============================
+# Python
+# ===============================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.eggs/
+
+# Virtual environments
+venv/
+venv311/
+.env
+
+# ===============================
+# OS / Editor
+# ===============================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# ===============================
+# Logs
+# ===============================
+logs/
+*.log
+
+# ===============================
+# Data (DO NOT COMMIT DATA LAKE)
+# ===============================
+data/raw/
+data/processed/
+data/interim/
+data/embeddings/
+
+# Large files
+*.parquet
+*.csv
+*.json
+*.pkl
+
+# YOLO / Computer Vision
+yolov8*.pt
+runs/
+ultralytics/
+
+# ===============================
+# dbt
+# ===============================
+medical_warehouse/target/
+medical_warehouse/dbt_packages/
+medical_warehouse/logs/
+
+# ===============================
+# Dagster
+# ===============================
+.dagster/
+dagster_storage/
+
+# ===============================
+# Jupyter
+# ===============================
+.ipynb_checkpoints/
+
+ 
